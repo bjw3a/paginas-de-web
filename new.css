@@ -1,0 +1,259 @@
+body{
+    background-color:black;
+    padding:0;
+    margin:0;
+    font-family: cursive;
+}
+/* Header */
+header{
+    background-color: red;
+    padding:20px;
+    background-image: url(../../images/city-2.jpg);
+    height:400px;
+    background-size: 100%;
+    background-position:center;
+}
+h1{
+    color: rgb(132, 252, 5);
+    font-family: fantasy;
+    text-shadow: blueviolet;
+    font-size: 25px;
+    font-style: oblique;
+    text-shadow: crimson;
+}
+
+header a{
+    text-decoration: none;
+    color:red;
+    margin:auto;
+}
+nav ul li{
+    display:inline-block;
+    padding: 20px;
+    font-size: 30px;;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    
+}
+nav ul li:hover{
+    text-decoration: underline;
+    
+}
+
+/* Section 1 */
+.features{
+    display:flex;
+    flex-direction: row;
+    
+}
+.features figure img{
+    margin:auto;
+    border-radius: 50%;
+    width:400px;
+    left:100px;
+    
+    
+}
+figcaption{
+    color:white;
+}
+
+
+section{
+    background-color: indigo;
+    backround:linear-gradient (to right, indigo, green, blue,);
+}
+
+footer{
+    background-color: purple;
+    font-family: cursive;
+    text-align: center;
+font-size: 12px;
+height:30px;
+}
+footer form p{
+    font size: 15px;
+    
+    
+
+}
+/* buttons */
+.buttons{
+    display:flex;
+    flex-direction: row;
+}
+.buttons div{
+    margin:auto;
+    padding:20px;
+}
+button{
+    border-radius: 50%;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: red;
+    border: black;
+}
+button:hover{
+    text-decoration: hotpink;
+}
+
+/* HEADING */
+h1:hover{
+    text-decoration: underline;
+}
+
+/* OTHER SHIT */
+p{
+    color:white;
+}
+.about_me h1 a {
+    color:green;
+    text-decoration: none;
+
+}
+.about_me h1 a:hover{
+    text-decoration: underline;
+}
+
+.extra div{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-size: 25px;
+    margin:10px;
+    padding:10px;
+   
+    position: relative;
+    left:1200px;
+    top:-600px;
+    
+
+}
+.image{
+    border-radius: 50%;
+    width:300px;
+    padding:30px;
+    margin:40px;
+    
+    
+    
+}
+
+.text div{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    left:0px;
+    
+    font-size: 20px;
+    
+}
+#filler{
+    background-image: url(../../images/city-3.jpeg);
+    background-size: 75%;
+    height:500px;
+    border: 40px solid black;
+    border-radius:50px;
+}
+#new_button{
+    margin:20px;
+    padding:20px;
+    left:0px;
+    top:30px;
+    position: relative;
+    color: transparent;
+}
+/* img[src^="../images/"]{
+    border:20px green;
+}  */
+/* otherpage */
+.new_shit {
+    display:flex;
+    flex-direction: row;
+}
+.new_shit figure img{
+    margin:auto;
+    
+    
+    border-radius: 50%;
+    width:300px;
+    height:250px;
+    border: 10px solid black;
+}
+/* div section 1 */
+#new_div{
+    display: flex;
+    flex-direction: column;
+}
+#new_div div{
+    
+    font-family: fantasy;
+    font-size: 30px;
+    color:red;
+}
+#new_div2{
+    display:flex;
+    flex-direction:column;
+}
+#new_div2 div{
+    font-family: fantasy;
+    font-size: 50px;
+    color:rgb(163, 11, 11);
+    left:1300px;
+    top:-140px;
+    position: relative;
+}
+/* div section 2 stairs */
+
+#div_section{
+    background-image: url(../images/nature-hero-banner.jpg);
+    border:10px solid black;
+    font-size: 20px;
+    color:white;
+
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}.row, .int{
+    width:100%;
+    text-align:center;
+    display:inline-block;
+    margin: 0 auto;
+}
+.int2{
+    max-width:90%;
+
+}
+.int3{
+    max-width:80%;
+}
+.int4 {
+    max-width:70%;
+}
+.int5{
+    max-width:60%;
+}
+.int6{
+    width:auto;
+}
+#repeat{
+    color:rgb(211, 203, 203);
+    font-size: 20px;
+    font-family: fantasy;
+}
+# repeat div:hover{
+    text-decoration:underline;
+    text-decoration-style: wavy;
+}
+
+#new_img_{
+    display:flex;
+    flex-direction: row;
+}
+#new_img_ figure img{
+    margin:auto;
+}
